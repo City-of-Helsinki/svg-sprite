@@ -670,6 +670,11 @@ stack:
     default: false
     map: mode.stack.bust
 
+  rootViewBox:
+    description: Add attribute viewBox to root svg automatically
+    default: true
+    map: mode.stack.rootViewBox
+
   render:
     css:
       description: Whether to render a CSS stylesheet
